@@ -1,0 +1,11 @@
+{
+  "display_name": "预设条目转移工具",
+  "loading_order": 20,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "ChatGPT",
+  "version": "0.2.0",
+  "homePage": ""
+}

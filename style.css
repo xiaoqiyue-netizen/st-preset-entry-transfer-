@@ -1,0 +1,80 @@
+#preset-entry-transfer .pet-warning {
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 8px;
+    padding: .7em;
+    margin: .5em 0 .8em;
+    line-height: 1.45;
+    background: color-mix(in srgb, var(--SmartThemeQuoteColor, #888) 10%, transparent);
+}
+#preset-entry-transfer .pet-field {
+    margin: .75em 0;
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+#preset-entry-transfer .pet-field input {
+    max-width: 100%;
+}
+#preset-entry-transfer .pet-field small {
+    opacity: .75;
+    overflow-wrap: anywhere;
+}
+#preset-entry-transfer .pet-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4em;
+    margin: .7em 0;
+}
+#preset-entry-transfer .pet-prompt-list {
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 8px;
+    max-height: 24em;
+    overflow: auto;
+    padding: .35em .6em;
+}
+#preset-entry-transfer .pet-prompt-row {
+    display: flex;
+    align-items: flex-start;
+    gap: .65em;
+    padding: .55em .1em;
+    border-bottom: 1px solid var(--SmartThemeBorderColor);
+    cursor: pointer;
+}
+#preset-entry-transfer .pet-prompt-row:last-child {
+    border-bottom: 0;
+}
+#preset-entry-transfer .pet-prompt-row input {
+    margin-top: .25em;
+    flex: 0 0 auto;
+}
+#preset-entry-transfer .pet-prompt-details {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: anywhere;
+    gap: .12em;
+}
+#preset-entry-transfer .pet-prompt-details small {
+    opacity: .72;
+    font-size: .82em;
+}
+#preset-entry-transfer .pet-status {
+    min-height: 2em;
+    margin: .65em 0;
+    overflow-wrap: anywhere;
+}
+#preset-entry-transfer .pet-status[data-kind="success"] {
+    color: var(--SmartThemeQuoteColor, inherit);
+}
+#preset-entry-transfer .pet-status[data-kind="error"] {
+    color: var(--SmartThemeEmColor, inherit);
+}
+#preset-entry-transfer .pet-help {
+    border-top: 1px solid var(--SmartThemeBorderColor);
+    margin-top: .8em;
+    padding-top: .7em;
+    font-size: .9em;
+}
+#preset-entry-transfer .pet-help ol {
+    padding-left: 1.5em;
+}
